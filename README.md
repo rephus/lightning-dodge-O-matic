@@ -7,6 +7,8 @@ Avoid lightning strikes on Final Fantasy X by using an Arduino + LDR + Servo
 
 ![](img.jpg)
 
+![](record.jpg)
+
 ## Hardware schema
 
 TODO
