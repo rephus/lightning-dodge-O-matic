@@ -11,10 +11,11 @@ Avoid lightning strikes on Final Fantasy X by using an Arduino + LDR + Servo
 
 ## Hardware schema
 
-Download [fritzing schema](schema.fzz)
+Download [fritzing schema](https://github.com/rephus/lightning-dodge-O-matic/raw/master/schema.fzz)
 
 ![](schema_bb.png)
 
+```
 LDR + -> A0
 LDR - -> VCC
 110Ohm + -> GND
@@ -22,3 +23,4 @@ LDR - -> VCC
 Servo - -> GND
 Servo + -> VCC
 Servo i -> D9
+```
