@@ -11,4 +11,14 @@ Avoid lightning strikes on Final Fantasy X by using an Arduino + LDR + Servo
 
 ## Hardware schema
 
-TODO
+Download [fritzing schema](schema.fzz)
+
+![](schema_bb.png)
+
+LDR + -> A0
+LDR - -> VCC
+110Ohm + -> GND
+110Ohm - ->  A0
+Servo - -> GND
+Servo + -> VCC
+Servo i -> D9
